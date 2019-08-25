@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AsciiPlayer": {
+      "commandName": "Project",
+      "commandLineArgs": "-e bmp -f 24 -w Threaded -s --directory \"A:\\Desktop\\ASCII Player Frames\\Bad Apple Frames\""
+    }
+  }
+}

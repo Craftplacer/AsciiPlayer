@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+    <Product>ASCII Player</Product>
+    <Description>Plays back an array of bitmaps back in the console</Description>
+    <Authors>Craftplacer</Authors>
+    <Company />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.6.0" />
+    <PackageReference Include="System.Drawing.Common" Version="4.6.0-preview8.19405.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\Craftplacer\.nuget\packages\swigged.llvm\70.0.1\build\\..\lib\native\swigged-llvm-native.so">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\Craftplacer\.nuget\packages\swigged.llvm\70.0.1\build\\..\lib\native\swigged-llvm-native.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\Craftplacer\.nuget\packages\campy\0.0.16\build\\..\build\native\corlib.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\Craftplacer\.nuget\packages\campy\0.0.16\build\\..\build\native\campy-runtime-wrapper.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\Craftplacer\.nuget\packages\campy\0.0.16\build\\..\build\native\campy-runtime-native.lib">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
